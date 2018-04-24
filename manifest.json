@@ -8,7 +8,7 @@
 	"web_accessible_resources" : ["img/*"],
 
 	 "content_scripts": [{
-      "matches": ["https://www.kth.se/student/minasidor/kurser/"],
+      "matches": ["https://www.kth.se/student/minasidor/kurser/*"],
       "js": ["js/jquery.js", "js/main.js"]
     }],
 
